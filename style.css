@@ -1,4 +1,21 @@
 #upute {
-  background-color: blue;
-  flex: auto;
+  background-color: crimson;
+  display: flex;
+  width: 300px;
+  height: 500px;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+  background-color: cadetblue;
+}
+
+#btn-container > button {
+  background-color: aqua;
+  display: flex;
+  width: 300px;
+  height: 500px;
+  font-size: large;
+  float: right;
 }
