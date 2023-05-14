@@ -1,4 +1,4 @@
-#upute {
+.container {
   background-color: crimson;
   display: flex;
   width: 300px;
@@ -11,11 +11,18 @@ h1 {
   background-color: cadetblue;
 }
 
-#btn-container > button {
-  background-color: aqua;
-  display: flex;
+#upute {
+  background-color: crimson;
   width: 300px;
   height: 500px;
   font-size: large;
-  float: right;
+}
+
+#btn-container {
+  background-color: aqua;
+  flex-grow: 1;
+  text-align: center;
+  border: 3px solid green;
+  top: 50%;
+  bottom: 50%;
 }
